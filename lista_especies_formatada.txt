@@ -1,0 +1,88 @@
+Cereus 61
+Cereus hildmannianus 63
+Cereus hildmannianus subsp uruguayanus 63
+Echinopsis 65
+Echinopsis oxygona 67
+Epiphyllum 69
+Epiphyllum phyllanthus 71
+Frailea 73
+Frailea buenekeri 75
+Frailea buenekeri subsp densispina 75
+Frailea castanea 77
+Frailea cataphracta 79
+Frailea curvispina 81
+Frailea fulviseta 83
+Frailea gracillima 85
+Frailea gracilima subsp horstii 85
+Frailea mammifera 87
+Frailea phaeodisca 89
+Frailea pumila 91
+Frailea pygmaea 93
+Frailea pygmaea subsp albicolumnaris 93
+Frailea schilinzkyana 95
+Gymnocalycium 97
+Gymnocalycium denudatum 99
+Gymnocalycium horstii 101
+Gymnocalycium hosrtii subsp buenekeri 101
+Gymnocalycium uruguayense 103
+Lepismium 105
+Lepismium cruciforme 107
+Lepismium houlletianum 109
+Lepismium lumbricoides 111
+Lepismium warmingianum 113
+Opuntia 115
+Opuntia assumptionis 117
+Opuntia elata 119
+Opuntia megapotamica 121
+Opuntia monacantha 123
+Parodia 125
+Parodia alacriportana 127
+Parodia allosiphon 129
+Parodia arnostiana 132
+Parodia buiningii 133
+Parodia concinna 135
+Parodia crassigibba 137
+Parodia erinacea 139
+Parodia fusca 141
+Parodia gaucha 143
+Parodia glaucina 145
+Parodia haselbergii 147
+Parodia haselbergii subsp graessneri 147
+Parodia herteri 149
+Parodia horstii 151
+Parodia langsdorfii 153
+Parodia leninghausii 155
+Parodia linkii 157
+Parodia magnifica 159
+Parodia mammulosa 161
+Parodia mueller-melchersii 163
+Parodia muricata 165
+Parodia neoarechavaletae 167
+Parodia neohorstii 169
+Parodia nothorauschii 171
+Parodia ottonis 173
+Parodia ottonis subsp horstii 173
+Parodia oxycostata 175
+Parodia rechensis 177
+Parodia rudibuenekeri 179
+Parodia schumanniana 181
+Parodia schumanniana subsp claviceps 181
+Parodia scopa 183
+Parodia scopa subsp neobuenekeri 183
+Parodia scopa subsp succinea 183
+Parodia stockingeri 185
+Parodia tenuicylindrica 187
+Parodia turbinata 189
+Parodia warasii 191
+Pereskia 193
+Pereskia aculeata 195
+Rhipsalis 197
+Rhipsalis campos-portoana 199
+Rhipsalis cereuscula 201
+Rhipsalis floccosa 203
+Rhipsalis floccosa subsp hohenauensis 203
+Rhipsalis floccosa subsp pulviginera 203
+Rhipsalis paradoxa 205
+Rhipsalis teres 207
+Schlumbergera 209
+Schlumbergera rosea 211
