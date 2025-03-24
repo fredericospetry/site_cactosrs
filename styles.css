@@ -1,13 +1,10 @@
         :root {
             --primary-color: #193A1E;
-            /* Verde musgo */
             --secondary-color: #2E8B57;
             --background-color: linear-gradient(45deg, #000000, #333333);
-            /* Fundo degradê preto */
             --text-color: white;
             --font-family: Calibri, Arial, sans-serif;
             --blue: #4169E1;
-            /* Azul para o efeito */
         }
 
         body {
@@ -15,61 +12,42 @@
             margin: 0;
             padding: 0;
             background: var(--background-color);
-            /* Aplicando o degradê preto */
             color: var(--text-color);
             user-select: none;
         }
 
         .menu {
             background: linear-gradient(45deg, #000000, #333333);
-            /* Fundo degradê preto */
             padding: 20px 10px;
-            /* Mais espaço vertical */
             text-align: center;
             box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
-            /* Sombra para profundidade */
             display: flex;
             flex-wrap: wrap;
-            /* Permite que os botões quebrem para a próxima linha */
             justify-content: center;
-            /* Centraliza os botões */
             gap: 8px;
-            /* Espaçamento entre os botões */
         }
 
         .menu a {
             color: white;
             text-decoration: none;
             font-size: 12px;
-            /* Fonte menor */
             padding: 8px 12px;
-            /* Padding ajustado */
             border: 2px solid var(--blue);
-            /* Contorno azul */
             border-radius: 5px;
             transition: all 150ms ease-in-out;
-            /* Transição suave */
             background-color: black;
-            /* Cor de fundo preta */
             position: relative;
-            /* Para o efeito 3D */
             cursor: pointer;
-            /* Garante que o cursor mude para pointer */
             text-align: center;
-            /* Centraliza o texto dentro dos botões */
         }
 
         .menu a.glow-on-hover {
             width: auto;
-            /* Ajuste para o tamanho do conteúdo */
             height: auto;
-            /* Ajuste para o tamanho do conteúdo */
             border: none;
             outline: none;
             color: #d7d7d7;
-            /* Cor do texto */
             background: black;
-            /* Cor de fundo preta */
             cursor: pointer;
             position: relative;
             z-index: 0;
@@ -104,7 +82,6 @@
             width: 100%;
             height: 100%;
             background: black;
-            /* Cor de fundo preta */
             left: 0;
             top: 0;
             border-radius: 10px;
@@ -112,42 +89,37 @@
         
         .menu a.active {
             background-color: #46699e;
-            /* Verde ainda mais escuro para link ativo */
             border-color: #4b4c92ec;
-            /* Contorno neon verde */
             box-shadow: 0 0 10px #6b65be, 0 0 20px #323492;
-            /* Efeito neon */
         }
 
-            /* Novos estilos para os botões "Capa" e "Última Página" */
         .menu a.capa-btn {
-            background-color: #FF5733 !important; /* Laranja */
-            border-color: #FF5733 !important; /* Laranja */
+            background-color: #FF5733 !important;
+            border-color: #FF5733 !important;
         }
 
         .menu a.capa-btn:hover {
-            background-color: #E64A19 !important; /* Laranja mais escuro ao passar o mouse */
+            background-color: #E64A19 !important;
         }
 
         .menu a.ultima-btn {
-            background-color: #FF5733 !important; /* Verde */
-            border-color: #FF5733 !important; /* Verde */
+            background-color: #FF5733 !important;
+            border-color: #FF5733 !important;
         }
 
         .menu a.ultima-btn:hover {
-            background-color: #E64A19 !important; /* Verde mais escuro ao passar o mouse */
+            background-color: #E64A19 !important;
         }
                
-        /* Estilo para o dropdown */
         .dropdown {
             position: relative;
             display: inline-block;
         }
 
         .dropdown-content {
-            display: none; /* Escondido por padrão */
+            display: none;
             position: absolute;
-            top: 100%; /* Posiciona o submenu abaixo do botão do gênero */
+            top: 100%;
             left: 0;
             background: linear-gradient(45deg, #000000, #333333);
             box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
@@ -155,9 +127,9 @@
             border-radius: 5px;
             padding: 5px 0;
             min-width: 200px;
-            max-height: 450px; /* Define a altura máxima */
-            overflow-y: auto; /* Adiciona scroll vertical se necessário */
-            margin-top: 10px; /* Adiciona um pequeno espaço entre o menu principal e o submenu */
+            max-height: 450px;
+            overflow-y: auto;
+            margin-top: 10px;
         }   
 
         .dropdown-content a {
@@ -166,18 +138,17 @@
             text-decoration: none;
             display: block;
             font-size: 12px;
-            border: 2px solid var(--blue); /* Contorno azul */
+            border: 2px solid var(--blue);
             border-radius: 5px;
             margin: 5px;
-            background-color: black; /* Cor de fundo preta */
-            transition: all 150ms ease-in-out; /* Transição suave */
+            background-color: black;
+            transition: all 150ms ease-in-out;
         }
 
         .dropdown-content a:hover {
-            background-color: var(--secondary-color); /* Cor ao passar o mouse */
+            background-color: var(--secondary-color);
         }
 
-        /* Adicionar seta ao lado do gênero */
         .dropdown > a::after {
             content: " ▼";
             font-size: 10px;
@@ -201,12 +172,10 @@
             padding: 20px;
             text-align: center;
             position: relative;
-            /* Para posicionar os botões sobre a imagem */
         }
 
         .book-container {
             background-color: rgba(0, 0, 0, 0.7);
-            /* Fundo semi-transparente */
             padding: 20px;
             box-shadow: 0 0 30px rgba(0, 0, 0, 0.1);
             display: inline-block;
@@ -215,25 +184,23 @@
             border: 1px solid rgba(255, 255, 255, 0.1);
             border-radius: 10px;
             position: relative;
-            /* Para posicionar os botões sobre a imagem */
         }
 
         .nav-overlay {
             position: absolute;
-            top: 50%; /* Centraliza verticalmente */
+            top: 50%;
             left: 0;
             right: 0;
-            transform: translateY(-50%); /* Ajusta o centro vertical */
+            transform: translateY(-50%);
             display: flex;
-            justify-content: space-between; /* Espaço entre os botões */
+            justify-content: space-between;
             align-items: center;
-            pointer-events: none; /* Permite clicar na imagem */
-            padding: 0 20px; /* Espaçamento interno */
+            pointer-events: none;
+            padding: 0 20px;
         }
 
         img.page-image {
             max-width: 70%;
-            /* Imagem reduzida para 60% */
             height: auto;
             border: 1px solid rgba(255, 255, 255, 0.2);
             transition: transform 0.3s ease;
@@ -250,62 +217,59 @@
             text-align: center;
         }
 
-        /* Botões de navegação */
         .navigation button {
             padding: 10px;
-            font-size: 20px; /* Tamanho maior para as setas */
+            font-size: 20px;
             cursor: pointer;
-            background-color: #b3ff00; /* Cor original */
+            background-color: #b3ff00;
             color: white;
             border: none;
-            border-radius: 50%; /* Botão redondo */
+            border-radius: 50%;
             font-family: var(--font-family);
             transition: background-color 0.3s ease;
-            width: 30px; /* Tamanho menor */
-            height: 30px; /* Tamanho menor */
+            width: 30px;
+            height: 30px;
             display: flex;
             align-items: center;
             justify-content: center;
         }
 
         .navigation button:hover {
-            background-color: #88ff00; /* Cor ao passar o mouse */
+            background-color: #88ff00;
         }
 
         .navigation button:disabled {
-            background-color: #ccc; /* Cor quando desabilitado */
+            background-color: #ccc;
             cursor: not-allowed;
         }
 
-        /* Botões da nav-overlay */
         .nav-overlay button {
-            background-color: #303030; /* Cor original */
+            background-color: #303030;
             border: none;
             color: white;
-            font-size: 24px; /* Tamanho maior para as setas */
+            font-size: 24px;
             cursor: pointer;
             padding: 10px;
-            border-radius: 50%; /* Botão redondo */
+            border-radius: 50%;
             pointer-events: all;
             transition: background-color 0.3s ease;
             margin: 0 10px;
-            width: 40px; /* Tamanho menor */
-            height: 40px; /* Tamanho menor */
+            width: 40px;
+            height: 40px;
             display: flex;
             align-items: center;
             justify-content: center;
         }
 
         .nav-overlay button:hover {
-            background-color: #080808; /* Cor ao passar o mouse */
+            background-color: #080808;
         }
 
         .nav-overlay button:disabled {
-            opacity: 0.5; /* Botão desabilitado */
+            opacity: 0.5;
             cursor: not-allowed;
         }
 
-        /* Estilos para o copyright */
         .copyright {
             text-align: center;
             margin-top: 10px;
@@ -316,7 +280,6 @@
 
         .copyright p {
             margin: 5px 0;
-            /* Reduzir o espaço entre os parágrafos */
         }
 
         .copyright a {
@@ -327,9 +290,7 @@
 
         .copyright a:hover {
             color: #00ff00;
-            /* Verde neon */
             text-shadow: 0 0 5px #00ff00, 0 0 10px #00ff00, 0 0 20px #00ff00;
-            /* Efeito neon */
         }
 
         @media (max-width: 768px) {
@@ -339,14 +300,11 @@
 
             .menu a {
                 font-size: 10px;
-                /* Fonte menor em telas menores */
                 padding: 6px 10px;
-                /* Padding menor para caber mais botões */
             }
 
             .nav-overlay button {
                 margin: 0 10px;
-                /* Ajuste para telas menores */
             }
         }
 
