@@ -1,18 +1,13 @@
 <!DOCTYPE html>
 <html>
-
 <head>
     <title>Cactos do Rio Grande do Sul - FZB/RS</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
 </head>
-
 <body>
-
-    <!-- Menu superior -->
     <div class="menu">
-        <!-- Link para a capa -->
         <div class="dropdown">
         <a href="#" id="link-capa" class="glow-on-hover capa-btn"><strong>Capa</strong></a>
         <div class="dropdown-content">
@@ -29,8 +24,6 @@
             <a href="#" data-page="223" class="glow-on-hover">Referências</a>
         </div>
         </div>
-
-        <!-- Dropdown para Cereus -->
         <div class="dropdown">
             <a href="#" data-page="61" class="glow-on-hover"><strong>Cereus</strong> ▼</a>
             <div class="dropdown-content">
@@ -38,24 +31,18 @@
                 <a href="#" data-page="63" class="glow-on-hover">Cereus hildmannianus subsp uruguayanus</a>
             </div>
         </div>
-    
-        <!-- Dropdown para Echinopsis -->
         <div class="dropdown">
             <a href="#" data-page="65" class="glow-on-hover"><strong>Echinopsis</strong> ▼</a>
             <div class="dropdown-content">
                 <a href="#" data-page="67" class="glow-on-hover">Echinopsis oxygona</a>
             </div>
         </div>
-    
-        <!-- Dropdown para Epiphyllum -->
         <div class="dropdown">
             <a href="#" data-page="69" class="glow-on-hover"><strong>Epiphyllum</strong> ▼</a>
             <div class="dropdown-content">
                 <a href="#" data-page="71" class="glow-on-hover"><strong>Epiphyllum phyllanthus</strong></a>
             </div>
         </div>
-
-        <!-- Dropdown para Frailea -->
         <div class="dropdown">
             <a href="#" data-page="73" class="glow-on-hover"><strong>Frailea</strong> ▼</a>
             <div class="dropdown-content">
@@ -75,8 +62,6 @@
                 <a href="#" data-page="95" class="glow-on-hover"><strong>Frailea schilinzkyana</strong></a>
             </div>
         </div>
-    
-        <!-- Dropdown para Gymnocalycium -->
         <div class="dropdown">
             <a href="#" data-page="97" class="glow-on-hover"><strong>Gymnocalycium</strong> ▼</a>
             <div class="dropdown-content">
@@ -86,8 +71,6 @@
                 <a href="#" data-page="103" class="glow-on-hover"><strong>Gymnocalycium uruguayense</strong></a>
             </div>
         </div>
-
-        <!-- Dropdown para Lepismium -->
         <div class="dropdown">
             <a href="#" data-page="105" class="glow-on-hover"><strong>Lepismium</strong> ▼</a>
             <div class="dropdown-content">
@@ -97,8 +80,6 @@
                 <a href="#" data-page="113" class="glow-on-hover"><strong>Lepismium warmingianum</strong></a>
             </div>
         </div>
-
-        <!-- Dropdown para Opuntia -->
         <div class="dropdown">
             <a href="#" data-page="115" class="glow-on-hover"><strong>Opuntia</strong> ▼</a>
             <div class="dropdown-content">
@@ -108,8 +89,6 @@
                 <a href="#" data-page="123" class="glow-on-hover"><strong>Opuntia monacantha</strong></a>
             </div>
         </div>
-
-        <!-- Dropdown para Parodia -->
         <div class="dropdown">
             <a href="#" data-page="125" class="glow-on-hover"><strong>Parodia</strong> ▼</a>
             <div class="dropdown-content">
@@ -153,16 +132,12 @@
                 <a href="#" data-page="191" class="glow-on-hover"><strong>Parodia warasii</strong></a>                
             </div>
         </div>
-
-        <!-- Dropdown para Pereskia -->
         <div class="dropdown">
             <a href="#" data-page="193" class="glow-on-hover"><strong>Pereskia</strong> ▼</a>
             <div class="dropdown-content">
                 <a href="#" data-page="195" class="glow-on-hover"><strong>Pereskia aculeata</strong></a>
             </div>
         </div>    
-
-        <!-- Dropdown para Rhipsalis -->
         <div class="dropdown">
             <a href="#" data-page="197" class="glow-on-hover"><strong>Rhipsalis</strong> ▼</a>
             <div class="dropdown-content">
@@ -175,33 +150,22 @@
                 <a href="#" data-page="207" class="glow-on-hover"><strong>Rhipsalis teres</strong></a>
             </div>
         </div>     
-
-        <!-- Dropdown para Schlumbergera -->
         <div class="dropdown">
             <a href="#" data-page="209" class="glow-on-hover"><strong>Schlumbergera</strong> ▼</a>
             <div class="dropdown-content">
                 <a href="#" data-page="211" class="glow-on-hover"><strong>Schlumbergera rosea</strong></a>
             </div>
         </div>   
-
-        <!-- Link para a última página -->
         <a href="#" id="link-ultima" class="glow-on-hover ultima-btn"><strong>Última Página</strong></a>
     </div>
-
-    <!-- Conteúdo principal -->
     <div class="content">
         <div class="book-container">
-            <!-- Botões de navegação sobre a imagem -->
             <div class="nav-overlay">
                 <button id="prev-overlay" onclick="prevPage()" disabled>‹</button>
                 <button id="next-overlay" onclick="nextPage()">›</button>
             </div>
-
-            <!-- Imagem central -->
             <img id="page-image" src="page_1.png" alt="Página 1" class="page-image" onclick="toggleZoom()">
         </div>
-
-        <!-- Textos de copyright -->
         <div class="copyright">
             <p>© 2016 <a href="https://www.sema.rs.gov.br/upload/arquivos/201708/25132604-cactos-do-rio-grande-do-sul-compressed.pdf"
                     target="_blank">Cactos do Rio Grande do Sul</a></p>
@@ -211,5 +175,4 @@
     </div>
     <script src="scripts.js"></script>
 </body>
-
 </html>
